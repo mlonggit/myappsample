@@ -32,3 +32,24 @@ git commit -m 'Changed app.js'
 
 //how to use git ignore
 $touch .gitignore
+
+
+//create log.txt dir1 dir1
+add log.txt to gitignore 
+add dir2 to ignore
+
+git add *.html // add all .html files
+git commit -m 'another change'
+
+//branch
+$git branch login
+
+//switch to branch
+$git checkout login
+
+// create file in login branch
+$touch login.html
+
+modify index.html
+save
+$git add .

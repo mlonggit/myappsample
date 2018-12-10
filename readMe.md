@@ -53,3 +53,40 @@ $touch login.html
 modify index.html
 save
 $git add .
+
+$git commit -m 'login form'
+
+
+//////////
+//switch back to master
+$git checkout  master
+//the login and index changes not in master
+
+// to merge
+$git merge login
+// login and index changes should be shown
+
+
+//remote acess
+create new git repository
+>mygitapp
+
+
+$git remote //nothing yet
+
+git remote add origin https://github.com/mlonggit/mygitapp.git
+git push -u origin master
+
+
+//////////////////////////
+$ git remote add origin https://github.com/mlonggit/myappsample
+fatal: remote origin already exists.
+
+//do this
+git remote rm origin
+//then
+
+git remote add origin https://github.com/mlonggit/myappsample.git
+git push -u origin master
+
+!! works finally !!!

@@ -90,3 +90,6 @@ git remote add origin https://github.com/mlonggit/myappsample.git
 git push -u origin master
 
 !! works finally !!!
+
+addtional commands added
+> git clone 

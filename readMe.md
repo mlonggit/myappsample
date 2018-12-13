@@ -79,7 +79,7 @@ git push -u origin master
 
 
 //////////////////////////
-$ git remote add origin https://github.com/mlonggit/myappsample
+$ git remote add origin https://github.com/mlonggit/myappsample  s
 fatal: remote origin already exists.
 
 //do this
@@ -91,5 +91,19 @@ git push -u origin master
 
 !! works finally !!!
 
+LearnCode.academy
 addtional commands added
-> git clone 
+> git clone https://github.com/mlonggit/myappsample.git
+> git pull
+> git push 
+> git  == show all command
+> git add -A
+
+GITHUB PULL REQUESTR, BRANCHING, MERGING & TEAM WORKFLOW..
+> git branch == show all branch
+> git branch feature1 == new branch create a copy
+> git checkout 'feature1'
+
+(if changes in master need to merge changes in feature1>
+> git merge master
+
